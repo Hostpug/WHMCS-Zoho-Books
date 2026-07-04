@@ -1,6 +1,6 @@
 # Free WHMCS Zoho Books Sync Module by Hostpug
 
-This WHMCS addon module provides a seamless, automated integration between your WHMCS billing system and Zoho Books. Designed for reliability and compliance, it accurately maps clients, invoices, payments, and refunds into Zoho Books in real-time, while offering a robust bulk migration engine for historical data.
+This WHMCS addon module provides a seamless, automated integration between your WHMCS billing system and Zoho Books. Specially designed for Indian businesses as per the GST Act, it ensures reliability and strict compliance. It accurately maps clients, invoices, payments, and refunds into Zoho Books in real-time, while offering a robust bulk migration engine for historical data.
 
 ## Key Features
 
@@ -81,3 +81,5 @@ For troubleshooting, the **Logs** tab records every outbound request sent to the
 This is a free Zoho WHMCS Module developed by [Hostpug](https://www.hostpug.in/). 
 
 For any bugs, improvements, or support, please contact us at **support@hostpug.in**.
+
+**Looking for Custom Development?** You can reach out to our support team and we will be happy to assist you with tailored solutions for your business!
