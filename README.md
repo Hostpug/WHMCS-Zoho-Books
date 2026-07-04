@@ -1,4 +1,4 @@
-# Fre WHMCS Zoho Books Module
+# Free WHMCS Zoho Books Module By Hostpug
 
 This WHMCS addon module provides a seamless, automated integration between your WHMCS billing system and Zoho Books. Designed for reliability and compliance, it accurately maps clients, invoices, payments, and refunds into Zoho Books in real-time, while offering a robust bulk migration engine for historical data.
 
