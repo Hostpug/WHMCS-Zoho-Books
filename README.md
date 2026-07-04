@@ -40,13 +40,15 @@ Before the module can sync data, you must authorize it with Zoho:
 3.  You will be redirected to Zoho to grant permissions. Upon approval, you will be returned to the WHMCS dashboard, and your connection status will display as "Connected".
 
 ### 2. Item Mapping
-The module must know which Zoho Books Items correspond to your WHMCS products and fees.
-1.  Navigate to the **Setup** tab within the module.
-2.  Ensure your Organization ID is selected.
-3.  Map the default Zoho Item IDs for each category (Shared Hosting, Reseller Hosting, Domains, Late Fees, Handling Fees, etc.). 
-4.  Click **Save Settings**.
+Before invoices can be synced, the module requires a precise mapping between your WHMCS product categories and your Zoho Books inventory/service items. 
 
-*Note: You must create these items manually in Zoho Books first to obtain their Item IDs.*
+**Important Prerequisite:** You must first log in to your Zoho Books dashboard and manually create a generic Item for each product category you sell (e.g., "Shared Hosting", "Domain Registration", "Late Fee").
+
+Once the items exist in Zoho Books:
+1.  Navigate to the **Setup** tab within the WHMCS module.
+2.  Ensure your Organization ID is selected.
+3.  Enter the corresponding **Zoho Item ID** for each category block provided in the settings.
+4.  Click **Save Settings**.
 
 ## Usage Guide
 
@@ -71,4 +73,7 @@ The **Invoices** and **Credit Notes** tabs serve as your primary reporting inter
 For troubleshooting, the **Logs** tab records every outbound request sent to the Zoho API. You can click "View" on any log entry to inspect the raw JSON payload and the exact response received from Zoho Books.
 
 ## Support
-For technical assistance, bug reports, or feature requests, please contact the development team or open an issue on the repository.
+
+This is a free Zoho WHMCS Module developed by [Hostpug](https://www.hostpug.in/). 
+
+For any bugs, improvements, or support, please contact us at **support@hostpug.in**.
