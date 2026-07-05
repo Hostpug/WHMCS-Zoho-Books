@@ -1,0 +1,43 @@
+END USER LICENSE AGREEMENT (EULA)
+Hostpug ZohoSync - Zoho Books Integration Module for WHMCS
+
+IMPORTANT: PLEASE READ THIS END USER LICENSE AGREEMENT CAREFULLY. IT IS VERY IMPORTANT THAT YOU CHECK THAT YOU ARE PURCHASING HOSTPUG SOFTWARE OR SERVICES FROM AN APPROVED SOURCE AND THAT YOU, OR THE ENTITY YOU REPRESENT (COLLECTIVELY, THE "CUSTOMER"), HAVE BEEN REGISTERED AS THE END USER FOR THE PURPOSES OF THIS HOSTPUG END USER LICENSE AGREEMENT.
+
+This EULA is a legal agreement between you (either an individual or a single entity) and Hostpug Web Private Limited ("Hostpug") for the Hostpug software product identified above, which includes computer software and may include associated media, printed materials, and "online" or electronic documentation ("SOFTWARE PRODUCT"). 
+
+By installing, copying, or otherwise using the SOFTWARE PRODUCT, you agree to be bound by the terms of this EULA. If you do not agree to the terms of this EULA, do not install or use the SOFTWARE PRODUCT.
+
+1. GRANT OF LICENSE
+This SOFTWARE PRODUCT is provided under a Free License model, which must be registered and claimed exclusively via the official Hostpug website (https://my.hostpug.in). Hostpug grants you the right to use one copy of the SOFTWARE PRODUCT on a single WHMCS installation associated with your valid License Key.
+
+2. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS
+(a) Maintenance of Copyright Notices.
+You must not remove or alter any copyright notices on any and all copies of the SOFTWARE PRODUCT.
+(b) Distribution.
+You may not distribute registered or encoded copies of the SOFTWARE PRODUCT to third parties without prior written consent.
+(c) Prohibition on Reverse Engineering, Decompilation, and Disassembly.
+You may not reverse engineer, decompile, bypass license encryption mechanisms, or disassemble the SOFTWARE PRODUCT, except and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation.
+(d) Rental.
+You may not rent, lease, or lend the SOFTWARE PRODUCT.
+(e) Transfer.
+You may not transfer your license key or rights under this EULA to any third party without prior written consent from Hostpug.
+(f) Support Services.
+Hostpug may provide you with support services related to the SOFTWARE PRODUCT ("Support Services"). Any supplemental software code provided to you as part of the Support Services shall be considered part of the SOFTWARE PRODUCT and subject to the terms and conditions of this EULA.
+(g) Compliance with Applicable Laws.
+You must comply with all applicable laws regarding use of the SOFTWARE PRODUCT.
+
+3. TERMINATION
+Without prejudice to any other rights, Hostpug may terminate this EULA if you fail to comply with the terms and conditions of this EULA. In such event, you must destroy all copies of the SOFTWARE PRODUCT in your possession.
+
+4. COPYRIGHT
+All title, including but not limited to copyrights, in and to the SOFTWARE PRODUCT and any copies thereof are owned by Hostpug. All title and intellectual property rights in and to the content which may be accessed through use of the SOFTWARE PRODUCT is the property of the respective content owner and may be protected by applicable copyright or other intellectual property laws and treaties. This EULA grants you no rights to use such content. All rights not expressly granted are reserved by Hostpug.
+
+5. NO WARRANTIES
+Hostpug expressly disclaims any warranty for the SOFTWARE PRODUCT. The SOFTWARE PRODUCT is provided 'As Is' without any express or implied warranty of any kind, including but not limited to any warranties of merchantability, noninfringement, or fitness of a particular purpose. Hostpug does not warrant or assume responsibility for the accuracy or completeness of any information, text, graphics, links or other items contained within the SOFTWARE PRODUCT. Hostpug makes no warranties respecting any harm that may be caused by the transmission of a computer virus, worm, time bomb, logic bomb, or other such computer program. Hostpug further expressly disclaims any warranty or representation to Authorized Users or to any third party.
+
+6. LIMITATION OF LIABILITY
+In no event shall Hostpug be liable for any damages (including, without limitation, lost profits, business interruption, or lost information) rising out of 'Authorized Users' use of or inability to use the SOFTWARE PRODUCT, even if Hostpug has been advised of the possibility of such damages. In no event will Hostpug be liable for loss of data or for indirect, special, incidental, consequential (including lost profit), or other damages based in contract, tort or otherwise. Hostpug shall have no liability with respect to the content of the SOFTWARE PRODUCT or any part thereof, including but not limited to errors or omissions contained therein, libel, infringements of rights of publicity, privacy, trademark rights, business interruption, personal injury, loss of privacy, moral rights or the disclosure of confidential information.
+
+For any questions regarding this EULA, please contact:
+Email: support@hostpug.in
+Website: https://www.hostpug.in
