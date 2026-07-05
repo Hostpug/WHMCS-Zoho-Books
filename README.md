@@ -6,8 +6,15 @@ Specially designed to comply strictly with the **Indian GST Act**, this **Free W
 
 ## Screenshots
 
-*(Add screenshots here showing the Dashboard, Settings, Migration tab, etc.)*
-<!-- TODO: Add image links like ![Dashboard Screenshot](link/to/image.png) -->
+Here is a preview of the module's interface:
+
+* [Screenshot 1 - Dashboard / Overview](https://ibb.co/r26XtjXH)
+* [Screenshot 2 - Interface](https://ibb.co/N62RGkw1)
+* [Screenshot 3 - Interface](https://ibb.co/v6vzvdWB)
+* [Screenshot 4 - Interface](https://ibb.co/KcLV8ywC)
+* [Screenshot 5 - Interface](https://ibb.co/DPcdhpvK)
+* [Screenshot 6 - Interface](https://ibb.co/49qPjFL)
+* [Screenshot 7 - Interface](https://ibb.co/99fdYYPm)
 
 ## Features of module
 
@@ -25,8 +32,8 @@ Specially designed to comply strictly with the **Indian GST Act**, this **Free W
 
 ## Prerequisites
 
-*   WHMCS 8.x 
-*   PHP 8.x - Ioncube 14 
+*   WHMCS 8.x or higher
+*   PHP 7.4 or higher
 *   A Zoho Books Account with API access enabled (India Edition Recommended for GST features)
 *   Zoho API Client ID and Client Secret (generated via Zoho API Console)
 *   A valid Hostpug Module License Key
