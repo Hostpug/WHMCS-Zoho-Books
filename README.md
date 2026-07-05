@@ -8,13 +8,15 @@ Specially designed to comply strictly with the **Indian GST Act**, this **Free W
 
 Here is a preview of the module's interface:
 
-* [Screenshot 1 - Dashboard / Overview](https://ibb.co/r26XtjXH)
-* [Screenshot 2 - Interface](https://ibb.co/N62RGkw1)
-* [Screenshot 3 - Interface](https://ibb.co/v6vzvdWB)
-* [Screenshot 4 - Interface](https://ibb.co/KcLV8ywC)
-* [Screenshot 5 - Interface](https://ibb.co/DPcdhpvK)
-* [Screenshot 6 - Interface](https://ibb.co/49qPjFL)
-* [Screenshot 7 - Interface](https://ibb.co/99fdYYPm)
+<p float="left">
+  <a href="https://i.ibb.co/QFv0xqs8/Dashboard.png"><img src="https://i.ibb.co/QFv0xqs8/Dashboard.png" width="13%" alt="Dashboard" title="Dashboard"></a>
+  <a href="https://i.ibb.co/8DRQ88kn/Setup-Tab.png"><img src="https://i.ibb.co/8DRQ88kn/Setup-Tab.png" width="13%" alt="Setup Tab" title="Setup & Settings"></a>
+  <a href="https://i.ibb.co/j90tmRQ4/Invoices.png"><img src="https://i.ibb.co/j90tmRQ4/Invoices.png" width="13%" alt="Invoices" title="Invoices Management"></a>
+  <a href="https://i.ibb.co/RGBQJHyL/GSTR-1.png"><img src="https://i.ibb.co/RGBQJHyL/GSTR-1.png" width="13%" alt="GSTR-1" title="GSTR-1"></a>
+  <a href="https://i.ibb.co/LXhphgyP/Export-Data.png"><img src="https://i.ibb.co/LXhphgyP/Export-Data.png" width="13%" alt="Export Data" title="Export Data"></a>
+  <a href="https://i.ibb.co/pG7J31T/Migration.png"><img src="https://i.ibb.co/pG7J31T/Migration.png" width="13%" alt="Migration" title="Bulk Migration Tool"></a>
+  <a href="https://i.ibb.co/hFWTM6TV/API-Logs.png"><img src="https://i.ibb.co/hFWTM6TV/API-Logs.png" width="13%" alt="API Logs" title="API Logs"></a>
+</p>
 
 ## Features of module
 
