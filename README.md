@@ -1,6 +1,8 @@
-# WHMCS Zoho Books Sync Module
+# Free WHMCS Zoho Books Module - Indian GST Act Compliant
 
-This WHMCS addon module provides a seamless, automated integration between your WHMCS billing system and Zoho Books. Designed for reliability and compliance, it accurately maps clients, invoices, payments, and refunds into Zoho Books in real-time, while offering a robust bulk migration engine for historical data.
+Looking for the best **Free WHMCS Zoho Books Module**? The Hostpug Zoho Books Sync Module provides a seamless, real-time automated integration between your WHMCS billing platform and Zoho Books accounting software. 
+
+Specially designed to comply strictly with the **Indian GST Act**, this **Free WHMCS GST Module** intelligently categorizes transactions, accurately maps Place of Supply, and files invoices perfectly for your GSTR-1 returns. Whether you are billing domestic B2B/B2C clients or handling overseas exports, this module completely automates your accounting compliance.
 
 ## Screenshots
 
@@ -9,22 +11,23 @@ This WHMCS addon module provides a seamless, automated integration between your 
 
 ## Features of module
 
-*   **Automated Invoice Syncing:** Instantly pushes WHMCS invoices to Zoho Books when marked as Paid. Line items, taxes, and transaction gateways are mapped precisely.
-*   **Refund & Credit Note Automation:** Automatically generates and applies Credit Notes in Zoho Books when an invoice is marked as Refunded in WHMCS.
-*   **Advanced Currency Handling:** Converts foreign currency invoices (e.g., USD) to INR using accurate historical exchange rates based on the original invoice payment date.
-*   **GST Compliance Engine:** Intelligently maps the Place of Supply and categorizes clients into appropriate GST treatments (B2B, B2C, or Export) based on state and country data. Automatically maps standard state abbreviations to Zoho's strict 2-letter GST state codes.
-*   **Export Zero-Rated Tax Automation:** Automatically queries your Zoho Books account for the "IGST 0%" tax ID and seamlessly applies it to all line items for overseas export customers. This guarantees your invoices correctly appear in the GSTR-1 export tables.
-*   **Customer Sync & Caching:** Automatically creates or matches contacts in Zoho Books. Local caching prevents redundant API calls and keeps operations fast.
-*   **Bulk Data Migration:** A dedicated UI allows administrators to bulk migrate older, unsynced invoices and refunds directly into Zoho Books with detailed progress tracking.
-*   **Account Credit Support:** Properly handles invoices paid partially or entirely via WHMCS account credit, logging them as "Customer Credit" payments in Zoho.
-*   **Comprehensive Logging:** Features a built-in API log viewer to inspect raw request and response payloads for easy debugging and audit trails.
+*   **Automated Invoice Syncing:** Instantly pushes WHMCS invoices to Zoho Books when marked as Paid. Line items, taxes, and transaction gateways are mapped precisely for effortless accounting.
+*   **Indian GST Act Compliance Engine:** A true Free WHMCS GST Module that automatically maps the Place of Supply and categorizes clients into the appropriate GST treatments (B2B, B2C, or Export) based on their state and country data.
+*   **Export Zero-Rated Tax Automation (IGST 0%):** Automatically queries your Zoho Books account for the "IGST 0%" tax ID and seamlessly applies it to all line items for overseas export customers, guaranteeing your export invoices correctly appear in the GSTR-1 tables.
+*   **Smart State Code Mapping:** Automatically maps standard WHMCS state abbreviations (like AP) to Zoho's strict 2-letter Indian GST state codes (like AD for Andhra Pradesh) to prevent API validation errors.
+*   **Refund & Credit Note Automation:** Automatically generates and applies GST-compliant Credit Notes in Zoho Books when an invoice is marked as Refunded in WHMCS.
+*   **Advanced Currency Handling:** Converts foreign currency invoices (e.g., USD, GBP, EUR) to INR using accurate historical exchange rates based on the original invoice payment date.
+*   **Customer Sync & Caching:** Automatically creates or matches contacts in Zoho Books. Local caching prevents redundant API calls and keeps operations lightning fast.
+*   **Bulk Data Migration Tool:** A dedicated UI allows administrators to bulk migrate older, unsynced historical invoices and refunds directly into Zoho Books with detailed progress tracking.
+*   **Account Credit Support:** Properly handles invoices paid partially or entirely via WHMCS account credit, logging them as "Customer Credit" payments in Zoho Books.
+*   **Comprehensive API Logging:** Features a built-in API log viewer to inspect raw JSON request and response payloads for easy debugging and audit trails.
 *   **Over-The-Air Updates:** Built-in mechanism to check for and install updates directly from GitHub.
 
 ## Prerequisites
 
 *   WHMCS 8.x or higher
 *   PHP 7.4 or higher
-*   A Zoho Books Account with API access enabled
+*   A Zoho Books Account with API access enabled (India Edition Recommended for GST features)
 *   Zoho API Client ID and Client Secret (generated via Zoho API Console)
 *   A valid Hostpug Module License Key
 
@@ -34,8 +37,8 @@ This WHMCS addon module provides a seamless, automated integration between your 
 2.  Upload the `Zohosync_hp` folder to the `modules/addons/` directory of your WHMCS installation.
 3.  Log in to your WHMCS Admin Area.
 4.  Navigate to **System Settings** > **Addon Modules**.
-5.  Locate the "Zoho Books Sync" module and click **Activate**.
-6.  Click **Configure**, select the administrative roles that should have access (e.g., Full Administrator), and save.
+5.  Locate the **Zoho Books Sync** module and click **Activate**.
+6.  Click **Configure**, select the administrative roles that should have access (e.g., Full Administrator), and save your settings.
 
 ## How to get Free WHMCS Zoho Module License
 
@@ -48,7 +51,7 @@ This WHMCS addon module provides a seamless, automated integration between your 
 ## Configuration and Setup
 
 ### 1. Zoho API Authentication
-Before the module can sync data, you must authorize it with Zoho:
+Before this Free WHMCS Zoho Books Module can sync data, you must authorize it with Zoho:
 1.  Navigate to **Addons** > **Zoho Books Sync**.
 2.  On the Dashboard tab, click the **Authorize with Zoho** button.
 3.  You will be redirected to Zoho to grant permissions. Upon approval, you will be returned to the WHMCS dashboard, and your connection status will display as "Connected".
@@ -67,7 +70,7 @@ Once the items exist in Zoho Books:
 ## Usage guide
 
 ### Dashboard
-The Dashboard provides a high-level overview of your integration health. You can monitor your daily Zoho API limits, verify connection status, and review a quick summary of synced tax data (IGST, CGST, SGST).
+The Dashboard provides a high-level overview of your integration health. You can monitor your daily Zoho API limits, verify connection status, and review a quick summary of synced GST data (IGST, CGST, SGST).
 
 ### Bulk Migration
 To sync historical invoices that were generated before the module was installed:
@@ -79,7 +82,7 @@ To sync historical invoices that were generated before the module was installed:
 ### Invoices & Credit Notes Management
 The **Invoices** and **Credit Notes** tabs serve as your primary reporting interfaces.
 *   View all invoices processed by the system along with their exact conversion rates and Zoho Invoice IDs.
-*   Filter records by month, supply type (B2B/B2C/Export), or use the search bar.
+*   Filter records by month, supply type (B2B, B2C, Export), or use the search bar.
 *   If an invoice fails to sync during an automated hook, it will be flagged here in red. You can review the exact API error and click **Retry** to push it again.
 *   Export the current view to a CSV file for accounting purposes.
 
@@ -88,6 +91,6 @@ For troubleshooting, the **Logs** tab records every outbound request sent to the
 
 ## Support
 
-This is a free Zoho WHMCS Module developed by [Hostpug](https://www.hostpug.in/). 
+This **Free WHMCS GST Module** is developed and maintained by [Hostpug](https://www.hostpug.in/). 
 
-For any bugs, improvements, or support, please contact us at **support@hostpug.in**.
+For any bugs, feature requests, or technical support, please contact our team at **support@hostpug.in**.
