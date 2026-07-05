@@ -25,8 +25,8 @@ Specially designed to comply strictly with the **Indian GST Act**, this **Free W
 
 ## Prerequisites
 
-*   WHMCS 8.x or higher
-*   PHP 7.4 or higher
+*   WHMCS 8.x 
+*   PHP 8.x - Ioncube 14 
 *   A Zoho Books Account with API access enabled (India Edition Recommended for GST features)
 *   Zoho API Client ID and Client Secret (generated via Zoho API Console)
 *   A valid Hostpug Module License Key
